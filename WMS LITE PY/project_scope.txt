@@ -1,0 +1,123 @@
+WMS LITE - ALCANCE DEL PROYECTO
+=================================
+
+1. GESTIÓN DE PRODUCTOS
+-----------------------
+- Creación y gestión de categorías de productos
+- Registro de productos con información detallada:
+  * SKU
+  * Código único
+  * Nombre
+  * Descripción
+  * Categoría
+  * Stock mínimo y máximo
+  * Control de duplicados de SKU
+- Actualización de niveles de stock
+
+2. GESTIÓN DE UBICACIONES
+-------------------------
+- Sistema de ubicaciones jerárquico:
+  * Zona
+  * Pasillo
+  * Estantería
+  * Posición
+- Operaciones disponibles:
+  * Crear ubicaciones
+  * Actualizar ubicaciones
+  * Eliminar ubicaciones
+  * Duplicar ubicaciones
+  * Limpiar todas las ubicaciones
+
+3. GESTIÓN DE INVENTARIO
+------------------------
+- Control de niveles de inventario por ubicación
+- Gestión de cantidades mínimas y máximas por ubicación
+- Seguimiento de productos por ubicación
+- Visualización de niveles de inventario con detalles de producto y ubicación
+
+4. GESTIÓN DE ÓRDENES
+---------------------
+- Tipos de órdenes configurables con:
+  * Código y nombre
+  * Requisitos de ubicación origen/destino
+  * Control de afectación a stock
+  * Zonas permitidas para origen/destino
+- Creación y seguimiento de órdenes
+- Gestión de items por orden
+- Estado de órdenes y trazabilidad
+
+5. OPERACIONES DE ALMACÉN
+------------------------
+- Recepción:
+  * Recepción de órdenes de compra
+  * Control de calidad
+  * Etiquetado y registro
+  * Asignación de ubicaciones
+
+- Almacenamiento:
+  * Putaway
+  * Reubicación de productos
+  * Optimización de espacio
+  * Gestión de zonas
+
+- Picking:
+  * Picking por pedido
+  * Picking por lote
+  * Wave picking
+  * Pick to light
+
+- Inventario:
+  * Conteo cíclico
+  * Ajustes de inventario
+  * Reportes de stock
+  * Gestión de discrepancias
+
+- Despacho:
+  * Consolidación de pedidos
+  * Empaque
+  * Verificación de envíos
+  * Documentación
+
+6. CONTROL DE CALIDAD
+--------------------
+- Inspección de calidad
+- Gestión de rechazos
+- Sistema de cuarentena
+- Trazabilidad de productos
+
+7. REPORTES Y ANÁLISIS
+---------------------
+- KPIs operacionales
+- Análisis de productividad
+- Reportes de utilización
+- Histórico de movimientos
+- Registro de procesos con detalles de:
+  * Tipo de operación
+  * Suboperación
+  * Estado
+  * Detalles adicionales
+  * Usuario responsable
+  * Marca de tiempo
+
+8. INTERFAZ DE USUARIO
+---------------------
+- Interfaz web responsive con Streamlit
+- Menú de operaciones intuitivo
+- Visualización de procesos en tiempo real
+- Historial de operaciones visible
+
+9. BASE DE DATOS
+---------------
+- Sistema SQLite para almacenamiento de datos
+- Esquema relacional optimizado
+- Tablas principales:
+  * Categorías
+  * Productos
+  * Ubicaciones
+  * Inventario
+  * Tipos de órdenes
+  * Órdenes
+  * Items de órdenes
+  * Historial de procesos
+
+Nota: Este documento refleja las capacidades actuales implementadas en el sistema WMS Lite.

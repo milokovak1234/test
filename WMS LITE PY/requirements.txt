@@ -1,0 +1,9 @@
+streamlit==1.29.0
+pandas==2.1.4
+sqlite3-api==0.1.0
+python-dotenv==1.0.0
+opencv-python==4.8.1.78
+numpy==1.26.2
+av==10.0.0
+streamlit-webrtc==0.47.1
+pyzbar==0.1.9
